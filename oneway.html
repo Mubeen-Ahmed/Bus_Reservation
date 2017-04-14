@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>WELCOME TO SKYLINE TRAVELS</title>
+<style type="text/css">
+body
+    {
+	background:url("w.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+        text-align: center;
+     }
+
+.button 
+ {    margin: 7px;
+    border-radius: 17px;
+        font-size: 17px;
+    color:white;
+    font-style:bold;
+ }
+
+.button span 
+  {
+    display: inline-block;
+    padding: 8px 8px;
+    background-color:red;
+    border-radius: 10px;
+    font-family:white;
+     line-height: 1;
+        font-style:bold;
+  }
+
+.button:hover span 
+  {
+    background-color:orange;
+      }
+
+</style>
+</head>
+<body>
+  <img src="bus.jpg" align="right" width="550" height="125">
+</br>
+<p><b ><i><font color="red" size="20">SKYLINE TRAVELS.in</i></font></b></p>
+<center>
+<table>
+<tr>
+<td><a href="bushome.html" class="button"><font color="white" size="4"><span>HOME</span> </font></a></td>
+<td><a href="buscan.html" class="button"><font color="white" size="4"><span>CANCELLATION</span></font></a></td>
+<td><a href="busps.html" class="button"><font color="white" size="4"><span>PRINT/SMS TICKET</span></font></a></td>
+<td><a href="busabout.html" class="button"><font color="white" size="4"><span>ABOUT</span></font></td>
+<td><a href="busterms.html" class="button"><font color="white" size="4"><span>TERMS&CONDITIONS</span></font></td>
+<td><a href="buscon.html" class="button"><font color="white" size="4"><span>CONTACT US</span></font></td>
+<td><a href="busagent.html" class="button"><font color="white" size="4"><span>LOGOUT</span></font></td>
+</tr>
+</table>
+<form action="buss.jsp" method="post">
+<table>
+<td><b><font color="red">FROM</font></td><td><select name="from" id="from"/></b>
+		<option value="0">From</option>
+		<option value="BANG">BANGALORE</option>
+		<option value="CHENNAI">CHENNAI</option>
+		<option value="HYD">HYDERABAD</option>
+		<option value="KADAPA">KADAPA</option>
+		<option value="VJA">VIJAYAWADA</option>
+		<option value="VIZAG">VIZAG</option>
+</td>
+<td><b><font color="red">TO</font></td><td><select name="to" id="to" /></b>
+		<option value="0">To</option>
+		<option value="BANG">BANGALORE</option>
+		<option value="CHENNAI">CHENNAI</option>
+		<option value="HYD">HYDERABAD</option>
+		<option value="KADAPA">KADAPA</option>
+		<option value="VJA">VIJAYAWADA</option>
+		<option value="VIZAG">VIZAG</option>
+</td>
+</tr>
+<tr>
+<td><b><font color="red">DOJ</font></td><td><input type="text" name="doj" id="doj"/></b></td>
+<tr>
+<td><b><font color="red">PASSENGERS</font></b></td>
+<td><select name="passengers" id="passengers">
+
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option></select>
+</b></td>
+<td><b><font color="red">BUSTYPE</font></b></td>
+<td><select name="Bustype" id="Bustype">
+<option value="Non A/C">Non A/c</option>
+	<option value="A/C">A/C</option>
+	<option value="General">General</option>
+	<option value="Deluxe">Deluxe</option></select>
+</td>
+</tr>
+
+</br>
+</br></br></br>
+</table>
+<tr><td><a href="oneway.html" ><input type="reset" value="Reset"/></td></tr></br>
+<input type="submit" value="SEARCH BUSES"/>
+</form>
+</center>
+
+</body>
+</html>
+
